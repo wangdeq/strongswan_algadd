@@ -40,6 +40,7 @@ enum encryption_algorithm_t {
 	ENCR_BLOWFISH =            7,
 	ENCR_3IDEA =               8,
 	ENCR_DES_IV32 =            9,
+	ENCR_MY_ALG =             10,
 	ENCR_NULL =               11,
 	ENCR_AES_CBC =            12,
 	/** CTR as specified for IPsec (RFC5930/RFC3686), nonce appended to key */

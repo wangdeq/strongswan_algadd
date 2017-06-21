@@ -182,6 +182,7 @@ static kernel_algorithm_t encryption_algs[] = {
 	{ENCR_BLOWFISH,				"blowfish"			},
 /*	{ENCR_3IDEA,				"***"				}, */
 /*	{ENCR_DES_IV32,				"***"				}, */
+	{ENCR_MY_ALG,				"my_alg"				},
 	{ENCR_NULL,					"cipher_null"		},
 	{ENCR_AES_CBC,				"aes"				},
 	{ENCR_AES_CTR,				"rfc3686(ctr(aes))"	},

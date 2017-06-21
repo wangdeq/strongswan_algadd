@@ -18,7 +18,7 @@
 
 #include "crypter.h"
 
-ENUM_BEGIN(encryption_algorithm_names, ENCR_DES_IV64, ENCR_DES_IV32,
+ENUM_BEGIN(encryption_algorithm_names, ENCR_DES_IV64, ENCR_MY_ALG,
 	"DES_IV64",
 	"DES_CBC",
 	"3DES_CBC",
@@ -27,8 +27,9 @@ ENUM_BEGIN(encryption_algorithm_names, ENCR_DES_IV64, ENCR_DES_IV32,
 	"CAST_CBC",
 	"BLOWFISH_CBC",
 	"3IDEA",
-	"DES_IV32");
-ENUM_NEXT(encryption_algorithm_names, ENCR_NULL, ENCR_AES_CCM_ICV16, ENCR_DES_IV32,
+	"DES_IV32",
+	"MY_ALG");
+ENUM_NEXT(encryption_algorithm_names, ENCR_NULL, ENCR_AES_CCM_ICV16, ENCR_MY_ALG,
 	"NULL",
 	"AES_CBC",
 	"AES_CTR",

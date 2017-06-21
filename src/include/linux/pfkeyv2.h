@@ -305,6 +305,7 @@ struct sadb_x_kmaddress {
 #define SADB_EALG_3DESCBC		3
 #define SADB_X_EALG_CASTCBC		6
 #define SADB_X_EALG_BLOWFISHCBC		7
+#define SADB_X_EALG_MY_ALG		10
 #define SADB_EALG_NULL			11
 #define SADB_X_EALG_AESCBC		12
 #define SADB_X_EALG_AESCTR		13

@@ -36,6 +36,7 @@ iv_gen_t* iv_gen_create_for_alg(encryption_algorithm_t alg)
 		case ENCR_BLOWFISH:
 		case ENCR_3IDEA:
 		case ENCR_AES_CBC:
+		case ENCR_MY_ALG:
 		case ENCR_CAMELLIA_CBC:
 		case ENCR_SERPENT_CBC:
 		case ENCR_TWOFISH_CBC:

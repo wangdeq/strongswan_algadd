@@ -899,6 +899,7 @@ proposal_t *proposal_create_default(protocol_id_t protocol)
 			}
 			break;
 		case PROTO_ESP:
+			add_algorithm(this, ENCRYPTION_ALGORITHM, ENCR_MY_ALG,           128);
 			add_algorithm(this, ENCRYPTION_ALGORITHM, ENCR_AES_CBC,          128);
 			add_algorithm(this, ENCRYPTION_ALGORITHM, ENCR_AES_CBC,          192);
 			add_algorithm(this, ENCRYPTION_ALGORITHM, ENCR_AES_CBC,          256);

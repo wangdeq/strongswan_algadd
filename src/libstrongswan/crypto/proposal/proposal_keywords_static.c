@@ -282,7 +282,8 @@ static const struct proposal_token wordlist[] =
     {"chacha20poly1305", ENCRYPTION_ALGORITHM, ENCR_CHACHA20_POLY1305,  256},
     {"ecp224bp",         DIFFIE_HELLMAN_GROUP, ECP_224_BP,                0},
     {"sha2_384",         INTEGRITY_ALGORITHM,  AUTH_HMAC_SHA2_384_192,    0},
-    {"modp2048s224",     DIFFIE_HELLMAN_GROUP, MODP_2048_224,             0}
+    {"modp2048s224",     DIFFIE_HELLMAN_GROUP, MODP_2048_224,             0},
+	{"myalg",			ENCRYPTION_ALGORITHM, ENCR_CHACHA20_POLY1305,  128}
   };
 
 static const short lookup[] =
@@ -306,7 +307,7 @@ static const short lookup[] =
      97,  98,  -1,  99, 100, 101,  -1, 102,  -1,  -1,
     103,  -1,  -1, 104, 105, 106, 107,  -1, 108, 109,
      -1, 110, 111,  -1,  -1, 112, 113,  -1, 114,  -1,
-     -1,  -1,  -1, 115,  -1, 116, 117,  -1, 118,  -1,
+     -1,  -1,  -1, 115,  -1, 116, 117, 139, 118,  -1,
     119, 120, 121, 122, 123,  -1, 124, 125,  -1, 126,
      -1,  -1, 127,  -1, 128, 129,  -1,  -1, 130,  -1,
      -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,  -1,
